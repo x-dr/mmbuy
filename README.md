@@ -22,3 +22,17 @@ or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+
+## Use it
+
+> POST
+```bash
+curl https://price.tryxd.cn/price -d "p_url=百亿补贴 38亓，立白茶籽洗衣液10斤/箱 /HeCrdb5EHOf/  CZ00"
+```
++ `p_url` : 淘口令或京东链接
+
+> GET
+```bash
+curl  'https://price.tryxd.cn/100038004359'
+```
+
